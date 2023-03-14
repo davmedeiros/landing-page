@@ -1,0 +1,150 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  /* outline: 1px solid red; */
+}
+
+header {
+  background-color: #1f2937;
+  padding: 16px 320px;
+  display: flex;    
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 16px;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+#introduction {
+  padding: 128px 320px;
+  background-color: #1f2937;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+#hero-text {
+  max-width: 400px;
+}
+
+#hero-text h2 {
+  font-size: 3rem;
+}
+
+#hero-text button,
+.action-box button {
+  padding: 8px 32px;
+  font-weight: bold;
+  background-color: #3882f6;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  margin-top: 12px;
+}
+
+.image-placeholder {
+  padding: 110px 150px;
+  background-color: #6D747D;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+#information {
+  padding: 32px 320px;
+}
+
+#information h2 {
+  text-align: center;
+  margin-bottom: 42px;
+  font-size: 2rem;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 64px;
+  padding-bottom: 100px;
+}
+
+.card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  width: 200px;
+}
+
+.card-image {
+  width: 200px;
+  height: 200px;
+  border: 4px solid #3882f6;
+  border-radius: 16px;
+}
+
+#quote {
+  background-color: #e5e7eb;
+  padding: 128px 460px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-text {
+  font-size: 2rem;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-weight: bold;
+}
+
+#sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 320px;
+}
+
+.action-box {
+  background-color: #3882f6;
+  padding: 64px 128px;
+  display: flex;
+  gap: 128px;
+  color: white;
+  border-radius: 10px;
+}
+
+.action-box button {
+  border-radius: 10px;
+  border: 4px solid white;
+  flex: none;
+}
+
+footer {
+  background-color: #1f2937;
+  display: flex;
+  padding: 32px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
