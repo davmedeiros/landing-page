@@ -6,12 +6,15 @@
     padding: 0;
 }
 
+:root {
+    --main-bg-color: #1f2937;
+    --main-fg-color: white;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #1f2937;
-    color: white;
     padding: 20px;
 }
 
@@ -22,5 +25,11 @@ header nav {
 
 header a {
     text-decoration: none;
-    color: white;
+}
+
+header,
+.hero,
+header a {
+    background-color: var(--main-bg-color);
+    color: var(--main-fg-color);
 }
