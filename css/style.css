@@ -15,7 +15,6 @@
 
 header {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -34,8 +33,12 @@ header a {
     background-color: var(--main-bg-color);
     color: var(--main-fg-color);
     display: flex;
-    justify-content: space-around;
-    padding: 20px;
+    justify-content: space-between;
+}
+
+header,
+section {
+    padding: 40px 300px;
 }
 
 .img-placeholder {
@@ -69,4 +72,29 @@ button {
 
 .hero-text button {
     align-self: flex-start;
+}
+
+.illustrations {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.illustration {
+    width: 220px;
+    height: 220px;
+    text-align: center;
+}
+
+.illustration-img {
+    border: 4px solid var(--active-bg-color);
+    border-radius: 16px;
+    width: 100%;
+    height: 100%;
+}
+
+.heading {
+    text-align: center;
+    margin: 40px;
+    font-size: 2rem;
 }
