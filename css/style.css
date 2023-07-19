@@ -9,13 +9,14 @@
 :root {
     --main-bg-color: #1f2937;
     --main-fg-color: white;
+    --active-bg-color: #3882f6;
+    --active-fg-color: white;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
 }
 
 header nav {
@@ -32,4 +33,40 @@ header,
 header a {
     background-color: var(--main-bg-color);
     color: var(--main-fg-color);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.img-placeholder {
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+button {
+    background-color: var(--active-bg-color);
+    color: var(--active-fg-color);
+    border: none;
+    border-radius: 8px;
+    padding: 8px 24px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-text h2 { 
+    font-size: 3rem;
+}
+
+.hero-text button {
+    align-self: flex-start;
 }
