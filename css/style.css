@@ -129,6 +129,10 @@ button {
     align-self: flex-end;
 }
 
+.actions {
+    padding: 100px 300px;
+}
+
 .action.sign-up {
     background-color: var(--active-bg-color);
     border-radius: 16px;
@@ -140,4 +144,12 @@ button {
 
 .action.sign-up button {
     border: 2px solid white;
+}
+
+footer {
+    background-color: var(--main-bg-color);
+    color: var(--main-fg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
