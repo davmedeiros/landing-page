@@ -40,7 +40,8 @@ header a {
 }
 
 header,
-section {
+section,
+footer {
     padding: 40px 300px;
 }
 
@@ -126,4 +127,17 @@ button {
 
 .author {
     align-self: flex-end;
+}
+
+.action.sign-up {
+    background-color: var(--active-bg-color);
+    border-radius: 16px;
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.action.sign-up button {
+    border: 2px solid white;
 }
