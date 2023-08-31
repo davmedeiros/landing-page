@@ -1,2 +1,1 @@
-# landing-page
-TOP - Landing Page
+# TOP - Educational Project - Landing Page
